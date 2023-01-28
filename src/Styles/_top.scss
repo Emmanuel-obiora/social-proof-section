@@ -1,0 +1,59 @@
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-goal{
+        display: grid;
+        row-gap: 1rem;
+        width: 370px;
+
+        & > h1{
+            color: $Very-Dark-Magenta;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+        & > p{
+            font-size: 16px;
+            line-height: 1.1;
+            color: $Dark-Grayish-Magenta;
+        }
+    }
+
+    &-stars{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        width: 410px;
+
+        .ratings{
+            display: flex;
+            gap: 1.5rem;
+            background: $Light-Grayish-Magenta;
+            padding: .5rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+
+            &-star{
+                display: flex;
+                gap: .2rem;
+            }
+
+            & > h2{
+                font-size: 17px;
+                color: $Dark-Grayish-Magenta;
+            }
+        }
+    }
+}
+
+.left{
+    margin-right: auto;
+}
+
+.right{
+    margin-left: auto;
+}

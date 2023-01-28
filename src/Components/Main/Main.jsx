@@ -5,7 +5,7 @@ import '../../style.css'
 
 const Main = () => {
     return (
-        <div>
+        <div className='main-container'>
             < Top />
             < Bottom />
         </div>

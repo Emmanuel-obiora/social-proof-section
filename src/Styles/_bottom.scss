@@ -1,0 +1,54 @@
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    height: 210px;
+    align-items: center;
+
+    &-card{
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        background: $Very-Dark-Magenta;
+        border-radius: 5px;
+        padding: 1.6rem;
+
+        &_user{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            & > img{
+                max-width: 20%;
+                border-radius: 50%;
+            }
+
+            &_name{
+                display: grid;
+                row-gap: .2rem;
+
+                &>h3{
+                    color: $Light-Grayish-Magenta;
+                }
+
+                &>strong{
+                    color: $Soft-Pink;
+                }
+            }
+        }
+
+        &>p{
+            color: $Light-Grayish-Magenta;
+            font-size: 13.63px;
+            line-height: 1.2;
+        }
+    }
+}
+
+.top{
+    margin-bottom: auto;
+}
+
+.bot{
+    margin-top: auto;
+}
