@@ -7,7 +7,7 @@ import Img3 from '../../images/image-anne.jpg'
 const Bottom = () => {
     return (
         <div className="bottom">
-            <section className="bottom-card top">
+            <div className="bottom-card top">
                 <div className="bottom-card_user">
                     <img src={Img1} alt="" />
                     <section className='bottom-card_user_name'>
@@ -19,9 +19,9 @@ const Bottom = () => {
                     Not only did they find the original order, but we also received it in time.
                     Excellent!"
                 </p>
-            </section>
+            </div>
 
-            <section className="bottom-card">
+            <div className="bottom-card">
                 <div className="bottom-card_user">
                     <img src={Img2} alt="" />
                     <section className='bottom-card_user_name'>
@@ -32,9 +32,9 @@ const Bottom = () => {
                 <p>"Customer service is always excellent and very quick turn around. Completely
                     delighted with the simplicity of the purchase and the speed of delivery."
                 </p>
-            </section>
+            </div>
 
-            <section className="bottom-card bot">
+            <div className="bottom-card bot">
                 <div className="bottom-card_user">
                     <img src={Img3} alt="" />
                     <section className='bottom-card_user_name'>
@@ -45,7 +45,7 @@ const Bottom = () => {
                 <p>"Put an order with this company and can only praise them for the very high
                     standard. Will definitely use them again and recommend them to everyone!"
                 </p>
-            </section>
+            </div>
         </div>
     )
 }

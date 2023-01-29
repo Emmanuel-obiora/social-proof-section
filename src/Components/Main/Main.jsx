@@ -5,10 +5,10 @@ import '../../style.css'
 
 const Main = () => {
     return (
-        <div className='main-container'>
+        <main className='main-container'>
             < Top />
             < Bottom />
-        </div>
+        </main>
     )
 }
 
