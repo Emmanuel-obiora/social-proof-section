@@ -5,6 +5,13 @@
     height: 210px;
     align-items: center;
 
+    @media (max-width: 37.5rem){
+        grid-template-columns: 1fr;
+        height: auto;
+        column-gap: 0;
+        row-gap: 1.5rem;
+    }
+
     &-card{
         display: flex;
         flex-direction: column;

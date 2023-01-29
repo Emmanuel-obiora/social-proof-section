@@ -1,8 +1,18 @@
 .main-container{
     width: 900px;
     height: 500px;
-    margin-top: auto;
     margin: auto auto 0 auto;
     display: grid;
     row-gap: 3rem;
+
+    @media (max-width: 64rem){
+        width: 750px;
+    }
+
+    @media (max-width: 37.5rem){
+        row-gap: 2rem;
+        width: 310px;
+        height: auto;
+        margin-top: 3rem;
+    }
 }
